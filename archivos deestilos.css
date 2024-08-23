@@ -1,0 +1,22 @@
+body {
+    font-family: arial, sans-serif;
+}
+.navbar {
+    margin-bottom: 20px;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery .col-md-3 {
+    flex: 0 0 auto;
+    margin: 0 0.5rem;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
